@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS util.users (app_id text,name text,balance bigint,accountNumber text, PRIMARY KEY ((app_id, name)));
